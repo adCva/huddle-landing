@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/huddle-landing/static/css/main.e2c5e8c2.chunk.css",
-    "main.js": "/huddle-landing/static/js/main.7bfb3df8.chunk.js",
-    "main.js.map": "/huddle-landing/static/js/main.7bfb3df8.chunk.js.map",
+    "main.js": "/huddle-landing/static/js/main.d3a55bb6.chunk.js",
+    "main.js.map": "/huddle-landing/static/js/main.d3a55bb6.chunk.js.map",
     "runtime-main.js": "/huddle-landing/static/js/runtime-main.26d813df.js",
     "runtime-main.js.map": "/huddle-landing/static/js/runtime-main.26d813df.js.map",
     "static/js/2.c08f75b2.chunk.js": "/huddle-landing/static/js/2.c08f75b2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.26d813df.js",
     "static/js/2.c08f75b2.chunk.js",
     "static/css/main.e2c5e8c2.chunk.css",
-    "static/js/main.7bfb3df8.chunk.js"
+    "static/js/main.d3a55bb6.chunk.js"
   ]
 }
