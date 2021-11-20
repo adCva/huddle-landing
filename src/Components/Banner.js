@@ -63,6 +63,10 @@ const BannerWrapper = styled.section`
 
 
 const BannerContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: min(85%, 1200px);
     margin: 0 auto;
 
@@ -74,6 +78,7 @@ const BannerContainer = styled.div`
     @media (min-width: 414px) {
         img {
             width: 370px;
+            background-color: red; 
         }
     }
 
@@ -90,10 +95,6 @@ const BannerContainer = styled.div`
     }
 
     @media (min-width: 1000px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
         img {
             width: 900px;
