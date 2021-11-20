@@ -94,6 +94,18 @@ const SectionContainer = styled.div`
         width: 100%;
     }
 
+    @media (min-width: 375px) {
+        img {
+            width: 320px;
+        }
+    }
+
+    @media (min-width: 600px) {
+        img {
+            width: 400px;
+        }
+    }
+
     @media (min-width: 768px) {
         img {
             width: 550px;
@@ -138,10 +150,11 @@ const SectionTextTitle = styled.h3`
     letter-spacing: 1px;
     margin-bottom: 1rem;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--very-dark-cyan)")};
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
     @media (min-width: 411px) {
         font-size: 1.5rem;
+        margin-bottom: 1.1rem;
     }
 
     @media (min-width: 768px) {
@@ -162,7 +175,7 @@ const SectionTextDesc = styled.p`
     font-size: 0.9rem;
     line-height: 1.5;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--very-dark-cyan)")};
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
     @media (min-width: 411px) {
         font-size: 1rem;
@@ -187,7 +200,7 @@ const SectionTextDesc = styled.p`
 const SectionDecorationTop = styled.img`
     margin-bottom: -5px;
     width: 100%;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 `
 
 
@@ -196,5 +209,5 @@ const SectionDecorationTop = styled.img`
 const SectionDecorationBottom = styled.img`
     margin-top: -5px;
     width: 100%;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 `

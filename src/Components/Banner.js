@@ -71,6 +71,24 @@ const BannerContainer = styled.div`
         margin: 4rem auto;
     }
 
+    @media (min-width: 414px) {
+        img {
+            width: 350px;
+        }
+    }
+
+    @media (min-width: 600px) {
+        img {
+            width: 450px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        img {
+            width: 650px;
+        }
+    }
+
     @media (min-width: 1000px) {
         display: flex;
         flex-direction: column;
@@ -114,9 +132,9 @@ const BannerTextH1 = styled.h1`
     letter-spacing: 1px;
     line-height: 1.3;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--very-dark-cyan)")};
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
-    @media (min-width: 450px) {
+    @media (min-width: 375px) {
         font-size: 1.7rem;
     }
 
@@ -141,7 +159,11 @@ const BannerTextP = styled.p`
     letter-spacing: 1px;
     line-height: 1.2;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--very-dark-cyan)")};
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+    @media (min-width: 375px) {
+        margin: 1.5rem 0 2.5rem;
+    }
 
     @media (min-width: 450px) {
         font-size: 0.95rem;
@@ -204,7 +226,7 @@ const BannerSubGroup = styled.div`
 
 
 const BannerCard = styled.div`
-    margin-bottom: 5rem;
+    margin-bottom: 6.5rem;
     :last-of-type {
         margin-bottom: 0;
     }
@@ -218,6 +240,12 @@ const BannerCard = styled.div`
         color: #818181;
         text-align: center;
         margin-top: 1rem;
+    }
+
+    @media (min-width: 375px) {
+        p {
+            font-size: 1.05rem;
+        }
     }
 
     @media (min-width: 620px) {
@@ -259,9 +287,14 @@ const BannerCardStat = styled.h2`
     font-size: 3rem;
     letter-spacing: 5px;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--very-dark-cyan)")};
+    margin-top: 0.5rem;
+
+    @media (min-width: 375px) {
+        font-size: 3.3rem;
+    }
 
     @media (min-width: 768px) {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 
 

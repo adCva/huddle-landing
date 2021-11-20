@@ -102,6 +102,7 @@ const SectionSpecialTextTitle = styled.h3`
 
     @media (min-width: 411px) {
         font-size: 1.5rem;
+        margin-bottom: 1.1rem;
     }
 
     @media (min-width: 768px) {

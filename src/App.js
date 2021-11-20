@@ -65,5 +65,5 @@ export default App;
 
 const AppWrapper = styled.div`
   background-color: ${({darkMode}) => (darkMode ? "var(--dark-bg-color)" : "var(--light-mode-bg)")};
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 `

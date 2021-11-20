@@ -46,6 +46,7 @@ const PFTitle = styled.h3`
     font-family: var(--ff-headings);
     font-size: 1.5rem;
     letter-spacing: 1px;
+    line-height: 1.4;
     margin-bottom: 2rem;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--very-dark-cyan)")};
 
