@@ -73,7 +73,7 @@ const BannerContainer = styled.div`
 
     @media (min-width: 414px) {
         img {
-            width: 350px;
+            width: 370px;
         }
     }
 

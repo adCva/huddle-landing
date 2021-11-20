@@ -96,7 +96,7 @@ const SectionContainer = styled.div`
 
     @media (min-width: 375px) {
         img {
-            width: 320px;
+            width: 280px;
         }
     }
 
@@ -108,7 +108,7 @@ const SectionContainer = styled.div`
 
     @media (min-width: 768px) {
         img {
-            width: 550px;
+            width: 500px;
         }
     }
 

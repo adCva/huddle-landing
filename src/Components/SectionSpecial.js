@@ -57,9 +57,21 @@ const SectionSpecialContainer = styled.div`
         width: 100%;
     }
 
+    @media (min-width: 375px) {
+        img {
+            width: 280px;
+        }
+    }
+
+    @media (min-width: 600px) {
+        img {
+            width: 400px;
+        }
+    }
+
     @media (min-width: 768px) {
         img {
-            width: 550px;
+            width: 500px;
         }
     }
 
