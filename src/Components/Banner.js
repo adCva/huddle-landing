@@ -75,19 +75,6 @@ const BannerContainer = styled.div`
         margin: 4rem auto;
     }
 
-    @media (min-width: 414px) {
-        img {
-            width: 370px;
-            background-color: red; 
-        }
-    }
-
-    @media (min-width: 600px) {
-        img {
-            width: 450px;
-        }
-    }
-
     @media (min-width: 768px) {
         img {
             width: 650px;
