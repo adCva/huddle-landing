@@ -75,9 +75,9 @@ function Footer(props) {
                             <ContactCardP>example@huddle.com</ContactCardP>
                         </ContactCard>
                         <SocialCard>
-                            <SocialBtn darkMode={activeMode === "dark" ? true : false}><FaFacebookSquare /></SocialBtn>
-                            <SocialBtn darkMode={activeMode === "dark" ? true : false}><FaInstagram /></SocialBtn>
-                            <SocialBtn darkMode={activeMode === "dark" ? true : false}><FaTwitterSquare /></SocialBtn>
+                            <SocialBtn href="https://facebook.com/" target="_blank" darkMode={activeMode === "dark" ? true : false}><FaFacebookSquare /></SocialBtn>
+                            <SocialBtn href="https://instagram.com/" target="_blank" darkMode={activeMode === "dark" ? true : false}><FaInstagram /></SocialBtn>
+                            <SocialBtn href="https://twitter.com/" target="_blank" darkMode={activeMode === "dark" ? true : false}><FaTwitterSquare /></SocialBtn>
                         </SocialCard>
                     </FooterHuddle>
                 </FooterContainer>
@@ -437,7 +437,7 @@ const SocialCard = styled.div`
 
 
 
-const SocialBtn = styled.button`
+const SocialBtn = styled.a`
     background: transparent;
     color: ${({darkMode}) => (darkMode ? "var(--dark-text-color)" : "var(--white)")};
     font-size: 1.8rem;
